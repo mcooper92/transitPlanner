@@ -36,20 +36,6 @@ import sampleData from '../sample_data.js'
   }
   
 
-  // sortStations(){
-  //   let sortedStations = [];
-  //   this.state.favoriteStations.map((station) => {
-  //   sortedStations.push(station);  
-  //   });
-  //   let others = this.state.stations.filter((station) => sortedStations.indexOf(station) === -1);
-
-  //   let allStations = sortedStations.concat(others);
-
-  //   this.setState({sortedStations: allStations});
-  //   console.log("TEST", this.state.sortedStations)
-
-  // }
-
   changeStart(event) {
   this.setState({start: event.target.value});
   }
